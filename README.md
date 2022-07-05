@@ -21,6 +21,14 @@ go run build/main.go
 
 您需要準備一個Server，來開啟[主頁文件](pages/index.html)
 
+或者您可以用我們所建立的簡單Server來啟動
+
+> go run main/server
+
+其中main是我們根路徑所定義的package名稱
+
+至於server則是我們實際包含main的go代碼
+
 ## 自行手動建立步驟
 
 1. 編寫您用Go所寫的主程式，本範例是用[2048](src/)當成範例
