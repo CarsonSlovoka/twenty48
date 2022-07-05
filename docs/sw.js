@@ -5,13 +5,13 @@
 const staticCacheName = 'site-static-v2'
 const dynamicCacheName = 'site-dynamic-v1'
 const assets = [
-  './',
-  './index.html',
-  "./2048.wasm",
-  "./game.html",
-  './static/js/app.js',
-  './static/tmpl/404.html',
-  './static/img/site/favicon.svg'
+  '/twenty48/',
+  '/twenty48/index.html',
+  "/twenty48/2048.wasm",
+  "/twenty48/game.html",
+  '/twenty48/static/js/app.js',
+  '/twenty48/static/tmpl/404.html',
+  '/twenty48/static/img/site/favicon.svg'
 ]
 
 // cache size limit function
@@ -65,7 +65,7 @@ self.addEventListener('fetch', evt => {
       })
     }).catch(() => {
       if (evt.request.url.indexOf('.html') > -1) {
-        return caches.match('./static/tmpl/404.html')
+        return caches.match('/twenty48/static/tmpl/404.html')
       }
     })
   )

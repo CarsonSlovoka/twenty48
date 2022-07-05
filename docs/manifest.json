@@ -1,6 +1,7 @@
 {
   "name": "twenty48",
   "short_name": "2048",
+  "id": "/twenty48/",
   "start_url": "/twenty48/",
   "display": "standalone",
   "background_color": "#FFE9D2",
