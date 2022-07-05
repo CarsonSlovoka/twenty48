@@ -4,6 +4,20 @@
 
 > 特別申明: 2048的遊戲代碼都是從[ebiten/examples/2048/](https://github.com/hajimehoshi/ebiten/tree/e687865c8c8f1ce10e7bdf47548d8657c50d8cae/examples/2048)修改而得
 
+## Demo
+
+我把成品放到gh-pages之中，請點擊連結來觀看範例
+
+> https://carsonslovoka.github.io/twenty48/
+
+### [在Github Page套用PWA的注意事項](https://stackoverflow.com/a/72867561/9935654)
+
+因為Github的根路徑是使用者名稱
+
+> https://{github_username}.github.io/{repository}
+
+所以在設定PWA的時候，Service Workers也要做調整，要加上[{repository}](https://github.com/CarsonSlovoka/twenty48/blob/81d0440244e95ce84e7a5f177477071fe024d0f5/docs/sw.js#L8-L14)
+
 ## build
 
 它會做以下事情:
@@ -52,3 +66,4 @@ go run build/main.go
 - [hajimehoshi/ebiten.examples/2048](https://github.com/hajimehoshi/ebiten/tree/e687865/examples/2048)
 - [WebAssembly Compiling](https://ebiten.org/documents/webassembly.html)
 - [github: hajimehoshi/wasmserve](https://github.com/hajimehoshi/wasmserve)
+- [Uniquely identifying PWAs with the web app manifest id property](https://developer.chrome.com/blog/pwa-manifest-id/?utm_source=devtools)
