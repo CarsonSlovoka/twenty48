@@ -25,9 +25,9 @@ go run build/main.go
 
 > go run main/server
 
-其中main是我們根路徑所定義的package名稱
+其中[main](https://github.com/CarsonSlovoka/twenty48/blob/a4b5c29/go.mod#L1)是我們根路徑所定義的package名稱
 
-至於server則是我們實際包含main的go代碼
+至於[server](https://github.com/CarsonSlovoka/twenty48/blob/a4b5c297c1bf43cd0c004e11134579461b71c91e/server/main.go#L1)則是我們實際包含main的go代碼
 
 ## 自行手動建立步驟
 
