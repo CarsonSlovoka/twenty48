@@ -15,7 +15,7 @@ var (
 )
 
 func init() {
-	if debug := os.Getenv("Debug"); debug == "0" || debug == "false" {
+	if debug := os.Getenv("Debug"); debug == "0" || debug == "false" { // 注意不同的作業系統，環境變數的判斷也不同，有的會區分大小寫！
 		Debug = false
 	}
 	if port := os.Getenv("Port"); port != "0" {

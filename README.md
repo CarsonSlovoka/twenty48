@@ -40,6 +40,13 @@ go run build/main.go
 
 以上的東西，可以參考此[commit](https://github.com/CarsonSlovoka/twenty48/commit/c0b028e8a6304b9b7ef260f610797cf780097ac2)
 
+## Publish to [replit](https://replit.com/)
+
+請手動編譯，並複製wasm_exec.js到pages資料夾內
+
+請參考[指令](src/README.md)
+
+同時請設定環境變[Debug改為false](https://github.com/CarsonSlovoka/twenty48/blob/a4b5c29/server/main.go#L19)
 
 ## 參考資料
 - [hajimehoshi/ebiten.examples/2048](https://github.com/hajimehoshi/ebiten/tree/e687865/examples/2048)
