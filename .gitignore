@@ -1,0 +1,4 @@
+*.exe
+.idea/
+pages/wasm_exec.js
+pages/*.wasm
